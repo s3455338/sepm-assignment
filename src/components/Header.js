@@ -12,7 +12,7 @@ const Header = () => (
   <Navbar inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#brand">Home</a>
+        <a href="/">Home</a>
       </Navbar.Brand>
     </Navbar.Header>
     <Navbar.Collapse>
