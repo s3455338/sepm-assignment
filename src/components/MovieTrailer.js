@@ -1,33 +1,32 @@
-import React from 'react';
+import React, {Component} from 'react';
 import YouTube from 'react-youtube';
 
-const MovieTrailer = () => (
-  <div style={divStyle}>
-    <h2 style={subStyle}>
-      <span style={spanStyle}>NOW SHOWING</span>
-    </h2>
-    <div style={{
-      margin: '20px auto'
-    }}>
-      <YouTube videoId="txBN-zGSHxc" opts={opts}/>
-    </div>
-    <div style={{
-      margin: '20px auto'
-    }}>
-      <YouTube videoId="txBN-zGSHxc" opts={opts}/>
-    </div>
-    <div style={{
-      margin: '20px auto'
-    }}>
-      <YouTube videoId="txBN-zGSHxc" opts={opts}/>
-    </div>
-    <div style={{
-      margin: '20px auto'
-    }}>
-      <YouTube videoId="txBN-zGSHxc" opts={opts}/>
-    </div>
+const movieIdList = ['JaigxZk_JyA', '4HOxZEdicuk', 'cSp1dM2Vj48','ixWL1BWi44U']
+
+const renderMovieItem = (youtubeId) => (
+  <div style={{
+    margin: '20px auto'
+  }}>
+    <YouTube videoId={youtubeId} opts={opts}/>
   </div>
-);
+)
+
+class MovieTrailer extends Component {
+  render() {
+    return (
+
+      <div style={divStyle}>
+        <h2 style={subStyle}>
+          <span style={spanStyle}>NOW SHOWING</span>
+        </h2>
+        {movieIdList.map((value) => {
+          return renderMovieItem(value);
+        })
+}
+      </div>
+    );
+  }
+}
 const opts = {
   height: '300px',
   width: '600px',
