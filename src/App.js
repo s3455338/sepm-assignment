@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Header from './components/Header';
+import MovieTrailer from './components/MovieTrailer'
 import {PageHeader} from 'react-bootstrap';
 class App extends Component {
   render() {
@@ -8,13 +9,14 @@ class App extends Component {
         <Header/>
         <PageHeader style={pageHeaderStyle}>
           Cinema Aurora
-        </PageHeader>;
+        </PageHeader>
+        <MovieTrailer />
       </div>
     );
   }
 }
-let pageHeaderStyle = {
-  color: '#95afc0',
+const pageHeaderStyle = {
+  color: '#535c68',
   marginLeft: '3.75rem',
   border:'none'
 }
