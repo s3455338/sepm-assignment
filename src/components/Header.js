@@ -16,13 +16,12 @@ const Header = () => (
       </Navbar.Brand>
     </Navbar.Header>
     <Navbar.Collapse>
-{/*}
       <Navbar.Form pullRight>
         <FormGroup>
           <FormControl type="text" placeholder="Search"/>
         </FormGroup>{' '}
         <Button type="submit">Search</Button>
-</Navbar.Form>*/}
+      </Navbar.Form>
       <Nav pullRight>
         <NavItem eventKey={1} href="#">
           View Cart
