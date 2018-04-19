@@ -24,6 +24,9 @@ const Header = () => (
       </Navbar.Form>
       <Nav pullRight>
         <NavItem eventKey={1} href="#">
+          Booking Tickets
+        </NavItem>
+        <NavItem eventKey={1} href="#">
           View Cart
         </NavItem>
         <NavItem eventKey={2} href="#">
