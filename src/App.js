@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <PageHeader style={pageHeaderStyle}>
-          Cinema Aurora
+          <strong>Cinema Aurora</strong>
         </PageHeader>
         <MovieTrailer />
       </div>
@@ -16,8 +16,9 @@ class App extends Component {
   }
 }
 const pageHeaderStyle = {
-  color: '#535c68',
+  fontWeight: '700',
+  color: '#eb4d4b',
   marginLeft: '3.75rem',
-  border:'none'
+  border:'none',
 }
 export default App;
