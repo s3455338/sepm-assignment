@@ -10,7 +10,7 @@ class MovieSession extends Component {
         <h2 style={subStyle}>
           <span style={spanStyle}>WHAT'S ON</span>
         </h2>
-        <Tabs defaultActiveKey={2} id="uncontrolled-tab-example">
+        <Tabs defaultActiveKey={2} id="uncontrolled-tab-example" style={{margin: '0 20px'}}>
           <Tab eventKey={1} title="Monday">
             <MovieBox />
           </Tab>
