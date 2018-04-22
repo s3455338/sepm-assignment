@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import YouTube from 'react-youtube';
 
-const movieIdList = ['JaigxZk_JyA', '4HOxZEdicuk', 'cSp1dM2Vj48','ixWL1BWi44U']
+const movieIdList = ['JaigxZk_JyA', '4HOxZEdicuk', 'cSp1dM2Vj48', 'ixWL1BWi44U']
 
 const renderMovieItem = (youtubeId) => (
   <div style={{
