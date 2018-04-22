@@ -4,6 +4,7 @@ import MovieTrailer from './components/MovieTrailer'
 import {PageHeader} from 'react-bootstrap';
 import Footer from './components/Footer';
 import Slider from './components/Slider';
+import MovieSession from './components/MovieSession/MovieSession';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         </PageHeader>
         <Slider />
         <MovieTrailer />
+        <MovieSession />
         <Footer/>
       </div>
     );
