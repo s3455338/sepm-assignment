@@ -1,21 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Header from './components/Header';
+import {PageHeader} from 'react-bootstrap';
+import Footer from './components/Footer';
+import {Route} from "react-router-dom";
+import Home from './components/Home';
+import MovieDetail from './components/MovieDetail'
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Header/>
+        <PageHeader style={pageHeaderStyle}>
+        <strong>Cinema Aurora</strong>
+        </PageHeader>
+        <Route exact path="/" component={Home}/>
+        <Route
+          path="/movie/:weekday/:id"
+          component={MovieDetail}/>
+        <Footer/>
+
       </div>
     );
   }
 }
-
+const pageHeaderStyle = {
+  fontWeight: '700',
+  color: '#eb4d4b',
+  marginLeft: '3.75rem',
+  border: 'none'
+}
 export default App;
