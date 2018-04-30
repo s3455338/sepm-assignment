@@ -3,27 +3,31 @@
       "weekday": "Monday",
       "movieList": [{
           "movieId": 1,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 2,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 3,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 4,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         }
       ]
     },
@@ -31,27 +35,31 @@
       "weekday": "Tuesday",
       "movieList": [{
           "movieId": 5,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 6,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 7,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 8,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         }
       ]
     },
@@ -59,135 +67,155 @@
       "weekday": "Wednesday",
       "movieList": [{
           "movieId": 9,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 10,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 11,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 12,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         }
       ]
     }, {
       "weekday": "Thursday",
       "movieList": [{
           "movieId": 13,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 14,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 15,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 16,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         }
       ]
     }, {
       "weekday": "Friday",
       "movieList": [{
           "movieId": 17,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 18,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 19,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 20,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         }
       ]
     }, {
       "weekday": "Saturday",
       "movieList": [{
           "movieId": 21,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 22,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 23,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 24,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         }
       ]
     }, {
       "weekday": "Sunday",
       "movieList": [{
           "movieId": 25,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 26,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 27,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         },
         {
           "movieId": 28,
-          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "thumbnailUrl": "https://via.placeholder.com/200x200",
           "title": "xxxx",
-          "description": "xxxxx"
+          "description": "xxxxx",
+          "youtubeId": "JaigxZk_JyA"
         }
       ]
     }
