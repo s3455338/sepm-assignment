@@ -1,0 +1,195 @@
+{
+  "weeklyList": [{
+      "weekday": "Monday",
+      "movieList": [{
+          "movieId": 1,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 2,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 3,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 4,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        }
+      ]
+    },
+    {
+      "weekday": "Tuesday",
+      "movieList": [{
+          "movieId": 5,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 6,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 7,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 8,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        }
+      ]
+    },
+    {
+      "weekday": "Wednesday",
+      "movieList": [{
+          "movieId": 9,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 10,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 11,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 12,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        }
+      ]
+    }, {
+      "weekday": "Thursday",
+      "movieList": [{
+          "movieId": 13,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 14,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 15,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 16,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        }
+      ]
+    }, {
+      "weekday": "Friday",
+      "movieList": [{
+          "movieId": 17,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 18,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 19,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 20,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        }
+      ]
+    }, {
+      "weekday": "Saturday",
+      "movieList": [{
+          "movieId": 21,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 22,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 23,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 24,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        }
+      ]
+    }, {
+      "weekday": "Sunday",
+      "movieList": [{
+          "movieId": 25,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 26,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 27,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        },
+        {
+          "movieId": 28,
+          "thumbnailUrl": "http://via.placeholder.com/200x200",
+          "title": "xxxx",
+          "description": "xxxxx"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,20 @@
 import React, {Component} from 'react';
 import {Tabs, Tab} from 'react-bootstrap';
 import MovieBox from './MovieBox'
+
+import movieList from '../../api/movieAPI.json'
+
 class MovieSession extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      weeklyList: movieList.weeklyList
+    }
+  }
+
+  componentDidMount() {}
+
   render() {
     return (
       <div style={{
@@ -10,28 +23,23 @@ class MovieSession extends Component {
         <h2 style={subStyle}>
           <span style={spanStyle}>WHAT'S ON</span>
         </h2>
-        <Tabs defaultActiveKey={2} id="uncontrolled-tab-example" style={{margin: '0 20px'}}>
-          <Tab eventKey={1} title="Monday">
-            <MovieBox />
-          </Tab>
-          <Tab eventKey={2} title="Tuesday">
-          <MovieBox />
-          </Tab>
-          <Tab eventKey={3} title="Wednesday">
-          <MovieBox />
-          </Tab>
-          <Tab eventKey={4} title="Thursday">
-          <MovieBox />
-          </Tab>
-          <Tab eventKey={5} title="Friday">
-          <MovieBox />
-          </Tab>
-          <Tab eventKey={6} title="Saturday">
-          <MovieBox />
-          </Tab>
-          <Tab eventKey={7} title="Sunday">
-          <MovieBox />
-          </Tab>
+        <Tabs
+          defaultActiveKey={2}
+          id="uncontrolled-tab-example"
+          style={{
+          margin: '0 20px'
+        }}>
+          {this
+            .state
+            .weeklyList
+            .map((item, index) => {
+              return (
+                <Tab eventKey={index + 1} title={item.weekday}>
+                  <MovieBox movieList={item.movieList} weekday={item.weekday}/>
+                </Tab>
+              )
+            })
+}
 
         </Tabs>
       </div>
