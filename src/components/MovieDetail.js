@@ -11,25 +11,25 @@ class MovieDetail extends Component {
     }
   }
 
-  // componentDidMount() {
-  //   const movieId = this.props.match.params.id;
-  //   const weekDay = this.props.weekday
-  //   const currentMovie = this.findMovieFromList();
-  //   console.log(JSON.stringify(currentMovie));
-  // }
+  componentDidMount() {
+    const movieId = this.props.match.params.id;
+    const weekDay = this.props.match.params.weekday;
+    const currentMovie = this.findMovieFromList(weekDay, movieId);
+    console.log(currentMovie);
+  }
 
-  // findMovieFromList = () => {
-  //   const currentDayMovieList = movieList.weeklyList.find(value => {
-  //     debugger;
-  //     value.weekday == this.props.match.params.weekDay;
-  //   });
-  //   console.log(currentDayMovieList)
-  //   const currentMovie = currentDayMovieList.find(value => {
-  //     debugger;
-  //     value.movieId == this.props.match.params.id;
-  //   })
-  //   return currentMovie
-  // }
+  findMovieFromList = (weekDay, id) => {
+    let currentDayMovieList = []
+    Object.keys(movieList.weeklyList).forEach(function(list) {
+      
+      if (movieList.weeklyList[list].weekday == weekDay) {
+
+        currentDayMovieList = movieList.weeklyList[list]
+      }
+    });
+    let currentMovie = currentDayMovieList.movieList.find(value => value.movieId == id)
+    return currentMovie
+  }
 
   render() {
   return(

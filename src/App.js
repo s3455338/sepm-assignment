@@ -1,11 +1,8 @@
 import React, {Component} from 'react';
 import Header from './components/Header';
-import MovieTrailer from './components/MovieTrailer'
 import {PageHeader} from 'react-bootstrap';
 import Footer from './components/Footer';
-import Slider from './components/Slider';
-import MovieSession from './components/MovieSession/MovieSession';
-import {Route, Link} from "react-router-dom";
+import {Route} from "react-router-dom";
 import Home from './components/Home';
 import MovieDetail from './components/MovieDetail'
 
