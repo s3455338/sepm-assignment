@@ -34,7 +34,7 @@ class MovieSession extends Component {
             .weeklyList
             .map((item, index) => {
               return (
-                <Tab eventKey={index + 1} title={item.weekday}>
+                <Tab key={index + 1} eventKey={index + 1} title={item.weekday}>
                   <MovieBox movieList={item.movieList} weekday={item.weekday}/>
                 </Tab>
               )

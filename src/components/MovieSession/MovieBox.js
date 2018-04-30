@@ -9,7 +9,7 @@ const MovieBox = (props) => {
     {
      props.movieList && props.movieList.map((item, index) => {
       return(
-        <Col xs={6} md={3}>
+        <Col xs={6} md={3} key={index}>
         <Link to ={'/movie/' + props.weekday + '/' + item.movieId}>
         <Thumbnail src={item.thumbnailUrl} alt={item.title}>
           <h3>{item.title}</h3>
